@@ -1,7 +1,8 @@
 
-応用課題７＿復習
+応用課題８＿復習
 
-本の投稿一覧ページで、過去一週間でいいねの合計カウントが多い順に投稿を表示
+ユーザ同士で 1 対 1 の DM ができるようにする
+※ 140 字まで送信可能にする
 
 This README would normally document whatever steps are necessary to get the
 application up and running.

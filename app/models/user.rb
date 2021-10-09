@@ -10,6 +10,9 @@ class User < ApplicationRecord
 
   has_many :favorited_books, through: :favorites, source: :book
 
+  has_many :user_rooms, dependent: :destroy
+  has_many :chats, dependent: :destroy
+
   attachment :profile_image, destroy: false
 
   validates :name, length: { minimum: 2, maximum: 20 }, uniqueness: true
